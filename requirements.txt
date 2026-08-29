@@ -5,5 +5,7 @@ spacy
 streamlit
 plotly
 reportlab
+python-docx
 python-dotenv
 pypdf
+google-genai
