@@ -1,0 +1,26 @@
+skill_id,skill_name,category,skill_type
+SK001,Python,Programming,Technical
+SK002,SQL,Database,Technical
+SK003,Excel,Data Analysis,Technical
+SK004,Power BI,Visualization,Technical
+SK005,Tableau,Visualization,Technical
+SK006,Pandas,Data Science,Technical
+SK007,NumPy,Data Science,Technical
+SK008,Scikit-learn,Machine Learning,Technical
+SK009,TensorFlow,Deep Learning,Technical
+SK010,Statistics,Statistics,Technical
+SK011,Machine Learning,Artificial Intelligence,Technical
+SK012,Data Visualization,Analytics,Technical
+SK013,Git,Developer Tools,Technical
+SK014,GitHub,Developer Tools,Technical
+SK015,Communication,Soft Skills,Soft
+SK016,Presentation,Soft Skills,Soft
+SK017,Business Analysis,Business,Business
+SK018,R,Programming,Technical
+SK019,MySQL,Database,Technical
+SK020,Java,Programming,Technical
+SK021,Data Cleaning,Data Analysis,Technical
+SK022,Matplotlib,Visualization,Technical
+SK023,Plotly,Visualization,Technical
+SK024,Hypothesis Testing,Statistics,Technical
+SK025,Problem Solving,Soft Skills,Soft

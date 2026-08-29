@@ -1,0 +1,864 @@
+job_id,student_id,skill,student_has_skill,job_requires_skill,match
+J001,S001,Data Visualization,0,1,0
+J001,S001,Excel,1,1,1
+J001,S001,Pandas,1,0,0
+J001,S001,Power BI,1,1,1
+J001,S001,Python,1,1,1
+J001,S001,SQL,1,1,1
+J001,S001,Statistics,1,1,1
+J001,S002,Data Visualization,1,1,1
+J001,S002,Excel,1,1,1
+J001,S002,Git,1,0,0
+J001,S002,Power BI,0,1,0
+J001,S002,Python,1,1,1
+J001,S002,SQL,1,1,1
+J001,S002,Statistics,0,1,0
+J001,S002,Tableau,1,0,0
+J001,S003,Data Visualization,0,1,0
+J001,S003,Excel,1,1,1
+J001,S003,NumPy,1,0,0
+J001,S003,Pandas,1,0,0
+J001,S003,Power BI,1,1,1
+J001,S003,Python,1,1,1
+J001,S003,SQL,1,1,1
+J001,S003,Statistics,0,1,0
+J001,S004,Data Visualization,0,1,0
+J001,S004,Excel,1,1,1
+J001,S004,Power BI,0,1,0
+J001,S004,Python,1,1,1
+J001,S004,R,1,0,0
+J001,S004,SQL,1,1,1
+J001,S004,Statistics,1,1,1
+J001,S004,Tableau,1,0,0
+J001,S005,Communication,1,0,0
+J001,S005,Data Visualization,1,1,1
+J001,S005,Excel,1,1,1
+J001,S005,Power BI,1,1,1
+J001,S005,Python,1,1,1
+J001,S005,SQL,1,1,1
+J001,S005,Statistics,0,1,0
+J001,S006,Data Visualization,0,1,0
+J001,S006,Excel,0,1,0
+J001,S006,Machine Learning,1,0,0
+J001,S006,Pandas,1,0,0
+J001,S006,Power BI,1,1,1
+J001,S006,Python,1,1,1
+J001,S006,SQL,1,1,1
+J001,S006,Statistics,0,1,0
+J001,S006,Tableau,1,0,0
+J001,S007,Communication,1,0,0
+J001,S007,Data Visualization,0,1,0
+J001,S007,Excel,1,1,1
+J001,S007,Git,1,0,0
+J001,S007,Java,1,0,0
+J001,S007,MySQL,1,0,0
+J001,S007,Power BI,0,1,0
+J001,S007,Python,1,1,1
+J001,S007,SQL,0,1,0
+J001,S007,Statistics,0,1,0
+J001,S008,Data Visualization,0,1,0
+J001,S008,Excel,1,1,1
+J001,S008,Machine Learning,1,0,0
+J001,S008,Power BI,1,1,1
+J001,S008,Python,1,1,1
+J001,S008,SQL,1,1,1
+J001,S008,Statistics,1,1,1
+J001,S009,Data Visualization,0,1,0
+J001,S009,Excel,0,1,0
+J001,S009,GitHub,1,0,0
+J001,S009,NumPy,1,0,0
+J001,S009,Pandas,1,0,0
+J001,S009,Power BI,0,1,0
+J001,S009,Python,1,1,1
+J001,S009,SQL,1,1,1
+J001,S009,Statistics,0,1,0
+J001,S009,Tableau,1,0,0
+J001,S010,Communication,1,0,0
+J001,S010,Data Visualization,0,1,0
+J001,S010,Excel,1,1,1
+J001,S010,Power BI,1,1,1
+J001,S010,Presentation,1,0,0
+J001,S010,Python,0,1,0
+J001,S010,SQL,1,1,1
+J001,S010,Statistics,1,1,1
+J002,S001,Communication,0,1,0
+J002,S001,Data Visualization,0,1,0
+J002,S001,Excel,1,0,0
+J002,S001,Pandas,1,0,0
+J002,S001,Power BI,1,0,0
+J002,S001,Python,1,1,1
+J002,S001,SQL,1,1,1
+J002,S001,Statistics,1,1,1
+J002,S001,Tableau,0,1,0
+J002,S002,Communication,0,1,0
+J002,S002,Data Visualization,1,1,1
+J002,S002,Excel,1,0,0
+J002,S002,Git,1,0,0
+J002,S002,Python,1,1,1
+J002,S002,SQL,1,1,1
+J002,S002,Statistics,0,1,0
+J002,S002,Tableau,1,1,1
+J002,S003,Communication,0,1,0
+J002,S003,Data Visualization,0,1,0
+J002,S003,Excel,1,0,0
+J002,S003,NumPy,1,0,0
+J002,S003,Pandas,1,0,0
+J002,S003,Power BI,1,0,0
+J002,S003,Python,1,1,1
+J002,S003,SQL,1,1,1
+J002,S003,Statistics,0,1,0
+J002,S003,Tableau,0,1,0
+J002,S004,Communication,0,1,0
+J002,S004,Data Visualization,0,1,0
+J002,S004,Excel,1,0,0
+J002,S004,Python,1,1,1
+J002,S004,R,1,0,0
+J002,S004,SQL,1,1,1
+J002,S004,Statistics,1,1,1
+J002,S004,Tableau,1,1,1
+J002,S005,Communication,1,1,1
+J002,S005,Data Visualization,1,1,1
+J002,S005,Excel,1,0,0
+J002,S005,Power BI,1,0,0
+J002,S005,Python,1,1,1
+J002,S005,SQL,1,1,1
+J002,S005,Statistics,0,1,0
+J002,S005,Tableau,0,1,0
+J002,S006,Communication,0,1,0
+J002,S006,Data Visualization,0,1,0
+J002,S006,Machine Learning,1,0,0
+J002,S006,Pandas,1,0,0
+J002,S006,Power BI,1,0,0
+J002,S006,Python,1,1,1
+J002,S006,SQL,1,1,1
+J002,S006,Statistics,0,1,0
+J002,S006,Tableau,1,1,1
+J002,S007,Communication,1,1,1
+J002,S007,Data Visualization,0,1,0
+J002,S007,Excel,1,0,0
+J002,S007,Git,1,0,0
+J002,S007,Java,1,0,0
+J002,S007,MySQL,1,0,0
+J002,S007,Python,1,1,1
+J002,S007,SQL,0,1,0
+J002,S007,Statistics,0,1,0
+J002,S007,Tableau,0,1,0
+J002,S008,Communication,0,1,0
+J002,S008,Data Visualization,0,1,0
+J002,S008,Excel,1,0,0
+J002,S008,Machine Learning,1,0,0
+J002,S008,Power BI,1,0,0
+J002,S008,Python,1,1,1
+J002,S008,SQL,1,1,1
+J002,S008,Statistics,1,1,1
+J002,S008,Tableau,0,1,0
+J002,S009,Communication,0,1,0
+J002,S009,Data Visualization,0,1,0
+J002,S009,GitHub,1,0,0
+J002,S009,NumPy,1,0,0
+J002,S009,Pandas,1,0,0
+J002,S009,Python,1,1,1
+J002,S009,SQL,1,1,1
+J002,S009,Statistics,0,1,0
+J002,S009,Tableau,1,1,1
+J002,S010,Communication,1,1,1
+J002,S010,Data Visualization,0,1,0
+J002,S010,Excel,1,0,0
+J002,S010,Power BI,1,0,0
+J002,S010,Presentation,1,0,0
+J002,S010,Python,0,1,0
+J002,S010,SQL,1,1,1
+J002,S010,Statistics,1,1,1
+J002,S010,Tableau,0,1,0
+J003,S001,Business Analysis,0,1,0
+J003,S001,Communication,0,1,0
+J003,S001,Data Visualization,0,1,0
+J003,S001,Excel,1,1,1
+J003,S001,Pandas,1,0,0
+J003,S001,Power BI,1,1,1
+J003,S001,Python,1,0,0
+J003,S001,SQL,1,1,1
+J003,S001,Statistics,1,0,0
+J003,S002,Business Analysis,0,1,0
+J003,S002,Communication,0,1,0
+J003,S002,Data Visualization,1,1,1
+J003,S002,Excel,1,1,1
+J003,S002,Git,1,0,0
+J003,S002,Power BI,0,1,0
+J003,S002,Python,1,0,0
+J003,S002,SQL,1,1,1
+J003,S002,Tableau,1,0,0
+J003,S003,Business Analysis,0,1,0
+J003,S003,Communication,0,1,0
+J003,S003,Data Visualization,0,1,0
+J003,S003,Excel,1,1,1
+J003,S003,NumPy,1,0,0
+J003,S003,Pandas,1,0,0
+J003,S003,Power BI,1,1,1
+J003,S003,Python,1,0,0
+J003,S003,SQL,1,1,1
+J003,S004,Business Analysis,0,1,0
+J003,S004,Communication,0,1,0
+J003,S004,Data Visualization,0,1,0
+J003,S004,Excel,1,1,1
+J003,S004,Power BI,0,1,0
+J003,S004,Python,1,0,0
+J003,S004,R,1,0,0
+J003,S004,SQL,1,1,1
+J003,S004,Statistics,1,0,0
+J003,S004,Tableau,1,0,0
+J003,S005,Business Analysis,0,1,0
+J003,S005,Communication,1,1,1
+J003,S005,Data Visualization,1,1,1
+J003,S005,Excel,1,1,1
+J003,S005,Power BI,1,1,1
+J003,S005,Python,1,0,0
+J003,S005,SQL,1,1,1
+J003,S006,Business Analysis,0,1,0
+J003,S006,Communication,0,1,0
+J003,S006,Data Visualization,0,1,0
+J003,S006,Excel,0,1,0
+J003,S006,Machine Learning,1,0,0
+J003,S006,Pandas,1,0,0
+J003,S006,Power BI,1,1,1
+J003,S006,Python,1,0,0
+J003,S006,SQL,1,1,1
+J003,S006,Tableau,1,0,0
+J003,S007,Business Analysis,0,1,0
+J003,S007,Communication,1,1,1
+J003,S007,Data Visualization,0,1,0
+J003,S007,Excel,1,1,1
+J003,S007,Git,1,0,0
+J003,S007,Java,1,0,0
+J003,S007,MySQL,1,0,0
+J003,S007,Power BI,0,1,0
+J003,S007,Python,1,0,0
+J003,S007,SQL,0,1,0
+J003,S008,Business Analysis,0,1,0
+J003,S008,Communication,0,1,0
+J003,S008,Data Visualization,0,1,0
+J003,S008,Excel,1,1,1
+J003,S008,Machine Learning,1,0,0
+J003,S008,Power BI,1,1,1
+J003,S008,Python,1,0,0
+J003,S008,SQL,1,1,1
+J003,S008,Statistics,1,0,0
+J003,S009,Business Analysis,0,1,0
+J003,S009,Communication,0,1,0
+J003,S009,Data Visualization,0,1,0
+J003,S009,Excel,0,1,0
+J003,S009,GitHub,1,0,0
+J003,S009,NumPy,1,0,0
+J003,S009,Pandas,1,0,0
+J003,S009,Power BI,0,1,0
+J003,S009,Python,1,0,0
+J003,S009,SQL,1,1,1
+J003,S009,Tableau,1,0,0
+J003,S010,Business Analysis,0,1,0
+J003,S010,Communication,1,1,1
+J003,S010,Data Visualization,0,1,0
+J003,S010,Excel,1,1,1
+J003,S010,Power BI,1,1,1
+J003,S010,Presentation,1,0,0
+J003,S010,SQL,1,1,1
+J003,S010,Statistics,1,0,0
+J004,S001,Excel,1,0,0
+J004,S001,Machine Learning,0,1,0
+J004,S001,NumPy,0,1,0
+J004,S001,Pandas,1,1,1
+J004,S001,Power BI,1,0,0
+J004,S001,Python,1,1,1
+J004,S001,SQL,1,1,1
+J004,S001,Statistics,1,1,1
+J004,S002,Data Visualization,1,0,0
+J004,S002,Excel,1,0,0
+J004,S002,Git,1,0,0
+J004,S002,Machine Learning,0,1,0
+J004,S002,NumPy,0,1,0
+J004,S002,Pandas,0,1,0
+J004,S002,Python,1,1,1
+J004,S002,SQL,1,1,1
+J004,S002,Statistics,0,1,0
+J004,S002,Tableau,1,0,0
+J004,S003,Excel,1,0,0
+J004,S003,Machine Learning,0,1,0
+J004,S003,NumPy,1,1,1
+J004,S003,Pandas,1,1,1
+J004,S003,Power BI,1,0,0
+J004,S003,Python,1,1,1
+J004,S003,SQL,1,1,1
+J004,S003,Statistics,0,1,0
+J004,S004,Excel,1,0,0
+J004,S004,Machine Learning,0,1,0
+J004,S004,NumPy,0,1,0
+J004,S004,Pandas,0,1,0
+J004,S004,Python,1,1,1
+J004,S004,R,1,0,0
+J004,S004,SQL,1,1,1
+J004,S004,Statistics,1,1,1
+J004,S004,Tableau,1,0,0
+J004,S005,Communication,1,0,0
+J004,S005,Data Visualization,1,0,0
+J004,S005,Excel,1,0,0
+J004,S005,Machine Learning,0,1,0
+J004,S005,NumPy,0,1,0
+J004,S005,Pandas,0,1,0
+J004,S005,Power BI,1,0,0
+J004,S005,Python,1,1,1
+J004,S005,SQL,1,1,1
+J004,S005,Statistics,0,1,0
+J004,S006,Machine Learning,1,1,1
+J004,S006,NumPy,0,1,0
+J004,S006,Pandas,1,1,1
+J004,S006,Power BI,1,0,0
+J004,S006,Python,1,1,1
+J004,S006,SQL,1,1,1
+J004,S006,Statistics,0,1,0
+J004,S006,Tableau,1,0,0
+J004,S007,Communication,1,0,0
+J004,S007,Excel,1,0,0
+J004,S007,Git,1,0,0
+J004,S007,Java,1,0,0
+J004,S007,Machine Learning,0,1,0
+J004,S007,MySQL,1,0,0
+J004,S007,NumPy,0,1,0
+J004,S007,Pandas,0,1,0
+J004,S007,Python,1,1,1
+J004,S007,SQL,0,1,0
+J004,S007,Statistics,0,1,0
+J004,S008,Excel,1,0,0
+J004,S008,Machine Learning,1,1,1
+J004,S008,NumPy,0,1,0
+J004,S008,Pandas,0,1,0
+J004,S008,Power BI,1,0,0
+J004,S008,Python,1,1,1
+J004,S008,SQL,1,1,1
+J004,S008,Statistics,1,1,1
+J004,S009,GitHub,1,0,0
+J004,S009,Machine Learning,0,1,0
+J004,S009,NumPy,1,1,1
+J004,S009,Pandas,1,1,1
+J004,S009,Python,1,1,1
+J004,S009,SQL,1,1,1
+J004,S009,Statistics,0,1,0
+J004,S009,Tableau,1,0,0
+J004,S010,Communication,1,0,0
+J004,S010,Excel,1,0,0
+J004,S010,Machine Learning,0,1,0
+J004,S010,NumPy,0,1,0
+J004,S010,Pandas,0,1,0
+J004,S010,Power BI,1,0,0
+J004,S010,Presentation,1,0,0
+J004,S010,Python,0,1,0
+J004,S010,SQL,1,1,1
+J004,S010,Statistics,1,1,1
+J005,S001,Data Visualization,0,1,0
+J005,S001,Excel,1,1,1
+J005,S001,Pandas,1,0,0
+J005,S001,Power BI,1,1,1
+J005,S001,Python,1,0,0
+J005,S001,SQL,1,1,1
+J005,S001,Statistics,1,1,1
+J005,S002,Data Visualization,1,1,1
+J005,S002,Excel,1,1,1
+J005,S002,Git,1,0,0
+J005,S002,Power BI,0,1,0
+J005,S002,Python,1,0,0
+J005,S002,SQL,1,1,1
+J005,S002,Statistics,0,1,0
+J005,S002,Tableau,1,0,0
+J005,S003,Data Visualization,0,1,0
+J005,S003,Excel,1,1,1
+J005,S003,NumPy,1,0,0
+J005,S003,Pandas,1,0,0
+J005,S003,Power BI,1,1,1
+J005,S003,Python,1,0,0
+J005,S003,SQL,1,1,1
+J005,S003,Statistics,0,1,0
+J005,S004,Data Visualization,0,1,0
+J005,S004,Excel,1,1,1
+J005,S004,Power BI,0,1,0
+J005,S004,Python,1,0,0
+J005,S004,R,1,0,0
+J005,S004,SQL,1,1,1
+J005,S004,Statistics,1,1,1
+J005,S004,Tableau,1,0,0
+J005,S005,Communication,1,0,0
+J005,S005,Data Visualization,1,1,1
+J005,S005,Excel,1,1,1
+J005,S005,Power BI,1,1,1
+J005,S005,Python,1,0,0
+J005,S005,SQL,1,1,1
+J005,S005,Statistics,0,1,0
+J005,S006,Data Visualization,0,1,0
+J005,S006,Excel,0,1,0
+J005,S006,Machine Learning,1,0,0
+J005,S006,Pandas,1,0,0
+J005,S006,Power BI,1,1,1
+J005,S006,Python,1,0,0
+J005,S006,SQL,1,1,1
+J005,S006,Statistics,0,1,0
+J005,S006,Tableau,1,0,0
+J005,S007,Communication,1,0,0
+J005,S007,Data Visualization,0,1,0
+J005,S007,Excel,1,1,1
+J005,S007,Git,1,0,0
+J005,S007,Java,1,0,0
+J005,S007,MySQL,1,0,0
+J005,S007,Power BI,0,1,0
+J005,S007,Python,1,0,0
+J005,S007,SQL,0,1,0
+J005,S007,Statistics,0,1,0
+J005,S008,Data Visualization,0,1,0
+J005,S008,Excel,1,1,1
+J005,S008,Machine Learning,1,0,0
+J005,S008,Power BI,1,1,1
+J005,S008,Python,1,0,0
+J005,S008,SQL,1,1,1
+J005,S008,Statistics,1,1,1
+J005,S009,Data Visualization,0,1,0
+J005,S009,Excel,0,1,0
+J005,S009,GitHub,1,0,0
+J005,S009,NumPy,1,0,0
+J005,S009,Pandas,1,0,0
+J005,S009,Power BI,0,1,0
+J005,S009,Python,1,0,0
+J005,S009,SQL,1,1,1
+J005,S009,Statistics,0,1,0
+J005,S009,Tableau,1,0,0
+J005,S010,Communication,1,0,0
+J005,S010,Data Visualization,0,1,0
+J005,S010,Excel,1,1,1
+J005,S010,Power BI,1,1,1
+J005,S010,Presentation,1,0,0
+J005,S010,SQL,1,1,1
+J005,S010,Statistics,1,1,1
+J006,S001,Communication,0,1,0
+J006,S001,Data Visualization,0,1,0
+J006,S001,Excel,1,0,0
+J006,S001,Pandas,1,0,0
+J006,S001,Power BI,1,0,0
+J006,S001,Python,1,1,1
+J006,S001,SQL,1,1,1
+J006,S001,Statistics,1,1,1
+J006,S001,Tableau,0,1,0
+J006,S002,Communication,0,1,0
+J006,S002,Data Visualization,1,1,1
+J006,S002,Excel,1,0,0
+J006,S002,Git,1,0,0
+J006,S002,Python,1,1,1
+J006,S002,SQL,1,1,1
+J006,S002,Statistics,0,1,0
+J006,S002,Tableau,1,1,1
+J006,S003,Communication,0,1,0
+J006,S003,Data Visualization,0,1,0
+J006,S003,Excel,1,0,0
+J006,S003,NumPy,1,0,0
+J006,S003,Pandas,1,0,0
+J006,S003,Power BI,1,0,0
+J006,S003,Python,1,1,1
+J006,S003,SQL,1,1,1
+J006,S003,Statistics,0,1,0
+J006,S003,Tableau,0,1,0
+J006,S004,Communication,0,1,0
+J006,S004,Data Visualization,0,1,0
+J006,S004,Excel,1,0,0
+J006,S004,Python,1,1,1
+J006,S004,R,1,0,0
+J006,S004,SQL,1,1,1
+J006,S004,Statistics,1,1,1
+J006,S004,Tableau,1,1,1
+J006,S005,Communication,1,1,1
+J006,S005,Data Visualization,1,1,1
+J006,S005,Excel,1,0,0
+J006,S005,Power BI,1,0,0
+J006,S005,Python,1,1,1
+J006,S005,SQL,1,1,1
+J006,S005,Statistics,0,1,0
+J006,S005,Tableau,0,1,0
+J006,S006,Communication,0,1,0
+J006,S006,Data Visualization,0,1,0
+J006,S006,Machine Learning,1,0,0
+J006,S006,Pandas,1,0,0
+J006,S006,Power BI,1,0,0
+J006,S006,Python,1,1,1
+J006,S006,SQL,1,1,1
+J006,S006,Statistics,0,1,0
+J006,S006,Tableau,1,1,1
+J006,S007,Communication,1,1,1
+J006,S007,Data Visualization,0,1,0
+J006,S007,Excel,1,0,0
+J006,S007,Git,1,0,0
+J006,S007,Java,1,0,0
+J006,S007,MySQL,1,0,0
+J006,S007,Python,1,1,1
+J006,S007,SQL,0,1,0
+J006,S007,Statistics,0,1,0
+J006,S007,Tableau,0,1,0
+J006,S008,Communication,0,1,0
+J006,S008,Data Visualization,0,1,0
+J006,S008,Excel,1,0,0
+J006,S008,Machine Learning,1,0,0
+J006,S008,Power BI,1,0,0
+J006,S008,Python,1,1,1
+J006,S008,SQL,1,1,1
+J006,S008,Statistics,1,1,1
+J006,S008,Tableau,0,1,0
+J006,S009,Communication,0,1,0
+J006,S009,Data Visualization,0,1,0
+J006,S009,GitHub,1,0,0
+J006,S009,NumPy,1,0,0
+J006,S009,Pandas,1,0,0
+J006,S009,Python,1,1,1
+J006,S009,SQL,1,1,1
+J006,S009,Statistics,0,1,0
+J006,S009,Tableau,1,1,1
+J006,S010,Communication,1,1,1
+J006,S010,Data Visualization,0,1,0
+J006,S010,Excel,1,0,0
+J006,S010,Power BI,1,0,0
+J006,S010,Presentation,1,0,0
+J006,S010,Python,0,1,0
+J006,S010,SQL,1,1,1
+J006,S010,Statistics,1,1,1
+J006,S010,Tableau,0,1,0
+J007,S001,Data Visualization,0,1,0
+J007,S001,Excel,1,0,0
+J007,S001,Pandas,1,1,1
+J007,S001,Power BI,1,1,1
+J007,S001,Python,1,1,1
+J007,S001,SQL,1,1,1
+J007,S001,Statistics,1,0,0
+J007,S002,Data Visualization,1,1,1
+J007,S002,Excel,1,0,0
+J007,S002,Git,1,0,0
+J007,S002,Pandas,0,1,0
+J007,S002,Power BI,0,1,0
+J007,S002,Python,1,1,1
+J007,S002,SQL,1,1,1
+J007,S002,Tableau,1,0,0
+J007,S003,Data Visualization,0,1,0
+J007,S003,Excel,1,0,0
+J007,S003,NumPy,1,0,0
+J007,S003,Pandas,1,1,1
+J007,S003,Power BI,1,1,1
+J007,S003,Python,1,1,1
+J007,S003,SQL,1,1,1
+J007,S004,Data Visualization,0,1,0
+J007,S004,Excel,1,0,0
+J007,S004,Pandas,0,1,0
+J007,S004,Power BI,0,1,0
+J007,S004,Python,1,1,1
+J007,S004,R,1,0,0
+J007,S004,SQL,1,1,1
+J007,S004,Statistics,1,0,0
+J007,S004,Tableau,1,0,0
+J007,S005,Communication,1,0,0
+J007,S005,Data Visualization,1,1,1
+J007,S005,Excel,1,0,0
+J007,S005,Pandas,0,1,0
+J007,S005,Power BI,1,1,1
+J007,S005,Python,1,1,1
+J007,S005,SQL,1,1,1
+J007,S006,Data Visualization,0,1,0
+J007,S006,Machine Learning,1,0,0
+J007,S006,Pandas,1,1,1
+J007,S006,Power BI,1,1,1
+J007,S006,Python,1,1,1
+J007,S006,SQL,1,1,1
+J007,S006,Tableau,1,0,0
+J007,S007,Communication,1,0,0
+J007,S007,Data Visualization,0,1,0
+J007,S007,Excel,1,0,0
+J007,S007,Git,1,0,0
+J007,S007,Java,1,0,0
+J007,S007,MySQL,1,0,0
+J007,S007,Pandas,0,1,0
+J007,S007,Power BI,0,1,0
+J007,S007,Python,1,1,1
+J007,S007,SQL,0,1,0
+J007,S008,Data Visualization,0,1,0
+J007,S008,Excel,1,0,0
+J007,S008,Machine Learning,1,0,0
+J007,S008,Pandas,0,1,0
+J007,S008,Power BI,1,1,1
+J007,S008,Python,1,1,1
+J007,S008,SQL,1,1,1
+J007,S008,Statistics,1,0,0
+J007,S009,Data Visualization,0,1,0
+J007,S009,GitHub,1,0,0
+J007,S009,NumPy,1,0,0
+J007,S009,Pandas,1,1,1
+J007,S009,Power BI,0,1,0
+J007,S009,Python,1,1,1
+J007,S009,SQL,1,1,1
+J007,S009,Tableau,1,0,0
+J007,S010,Communication,1,0,0
+J007,S010,Data Visualization,0,1,0
+J007,S010,Excel,1,0,0
+J007,S010,Pandas,0,1,0
+J007,S010,Power BI,1,1,1
+J007,S010,Presentation,1,0,0
+J007,S010,Python,0,1,0
+J007,S010,SQL,1,1,1
+J007,S010,Statistics,1,0,0
+J008,S001,Business Analysis,0,1,0
+J008,S001,Communication,0,1,0
+J008,S001,Excel,1,1,1
+J008,S001,Pandas,1,0,0
+J008,S001,Power BI,1,1,1
+J008,S001,Python,1,0,0
+J008,S001,SQL,1,1,1
+J008,S001,Statistics,1,0,0
+J008,S002,Business Analysis,0,1,0
+J008,S002,Communication,0,1,0
+J008,S002,Data Visualization,1,0,0
+J008,S002,Excel,1,1,1
+J008,S002,Git,1,0,0
+J008,S002,Power BI,0,1,0
+J008,S002,Python,1,0,0
+J008,S002,SQL,1,1,1
+J008,S002,Tableau,1,0,0
+J008,S003,Business Analysis,0,1,0
+J008,S003,Communication,0,1,0
+J008,S003,Excel,1,1,1
+J008,S003,NumPy,1,0,0
+J008,S003,Pandas,1,0,0
+J008,S003,Power BI,1,1,1
+J008,S003,Python,1,0,0
+J008,S003,SQL,1,1,1
+J008,S004,Business Analysis,0,1,0
+J008,S004,Communication,0,1,0
+J008,S004,Excel,1,1,1
+J008,S004,Power BI,0,1,0
+J008,S004,Python,1,0,0
+J008,S004,R,1,0,0
+J008,S004,SQL,1,1,1
+J008,S004,Statistics,1,0,0
+J008,S004,Tableau,1,0,0
+J008,S005,Business Analysis,0,1,0
+J008,S005,Communication,1,1,1
+J008,S005,Data Visualization,1,0,0
+J008,S005,Excel,1,1,1
+J008,S005,Power BI,1,1,1
+J008,S005,Python,1,0,0
+J008,S005,SQL,1,1,1
+J008,S006,Business Analysis,0,1,0
+J008,S006,Communication,0,1,0
+J008,S006,Excel,0,1,0
+J008,S006,Machine Learning,1,0,0
+J008,S006,Pandas,1,0,0
+J008,S006,Power BI,1,1,1
+J008,S006,Python,1,0,0
+J008,S006,SQL,1,1,1
+J008,S006,Tableau,1,0,0
+J008,S007,Business Analysis,0,1,0
+J008,S007,Communication,1,1,1
+J008,S007,Excel,1,1,1
+J008,S007,Git,1,0,0
+J008,S007,Java,1,0,0
+J008,S007,MySQL,1,0,0
+J008,S007,Power BI,0,1,0
+J008,S007,Python,1,0,0
+J008,S007,SQL,0,1,0
+J008,S008,Business Analysis,0,1,0
+J008,S008,Communication,0,1,0
+J008,S008,Excel,1,1,1
+J008,S008,Machine Learning,1,0,0
+J008,S008,Power BI,1,1,1
+J008,S008,Python,1,0,0
+J008,S008,SQL,1,1,1
+J008,S008,Statistics,1,0,0
+J008,S009,Business Analysis,0,1,0
+J008,S009,Communication,0,1,0
+J008,S009,Excel,0,1,0
+J008,S009,GitHub,1,0,0
+J008,S009,NumPy,1,0,0
+J008,S009,Pandas,1,0,0
+J008,S009,Power BI,0,1,0
+J008,S009,Python,1,0,0
+J008,S009,SQL,1,1,1
+J008,S009,Tableau,1,0,0
+J008,S010,Business Analysis,0,1,0
+J008,S010,Communication,1,1,1
+J008,S010,Excel,1,1,1
+J008,S010,Power BI,1,1,1
+J008,S010,Presentation,1,0,0
+J008,S010,SQL,1,1,1
+J008,S010,Statistics,1,0,0
+J009,S001,Communication,0,1,0
+J009,S001,Data Visualization,0,1,0
+J009,S001,Excel,1,0,0
+J009,S001,Pandas,1,0,0
+J009,S001,Power BI,1,1,1
+J009,S001,Python,1,0,0
+J009,S001,SQL,1,1,1
+J009,S001,Statistics,1,0,0
+J009,S001,Tableau,0,1,0
+J009,S002,Communication,0,1,0
+J009,S002,Data Visualization,1,1,1
+J009,S002,Excel,1,0,0
+J009,S002,Git,1,0,0
+J009,S002,Power BI,0,1,0
+J009,S002,Python,1,0,0
+J009,S002,SQL,1,1,1
+J009,S002,Tableau,1,1,1
+J009,S003,Communication,0,1,0
+J009,S003,Data Visualization,0,1,0
+J009,S003,Excel,1,0,0
+J009,S003,NumPy,1,0,0
+J009,S003,Pandas,1,0,0
+J009,S003,Power BI,1,1,1
+J009,S003,Python,1,0,0
+J009,S003,SQL,1,1,1
+J009,S003,Tableau,0,1,0
+J009,S004,Communication,0,1,0
+J009,S004,Data Visualization,0,1,0
+J009,S004,Excel,1,0,0
+J009,S004,Power BI,0,1,0
+J009,S004,Python,1,0,0
+J009,S004,R,1,0,0
+J009,S004,SQL,1,1,1
+J009,S004,Statistics,1,0,0
+J009,S004,Tableau,1,1,1
+J009,S005,Communication,1,1,1
+J009,S005,Data Visualization,1,1,1
+J009,S005,Excel,1,0,0
+J009,S005,Power BI,1,1,1
+J009,S005,Python,1,0,0
+J009,S005,SQL,1,1,1
+J009,S005,Tableau,0,1,0
+J009,S006,Communication,0,1,0
+J009,S006,Data Visualization,0,1,0
+J009,S006,Machine Learning,1,0,0
+J009,S006,Pandas,1,0,0
+J009,S006,Power BI,1,1,1
+J009,S006,Python,1,0,0
+J009,S006,SQL,1,1,1
+J009,S006,Tableau,1,1,1
+J009,S007,Communication,1,1,1
+J009,S007,Data Visualization,0,1,0
+J009,S007,Excel,1,0,0
+J009,S007,Git,1,0,0
+J009,S007,Java,1,0,0
+J009,S007,MySQL,1,0,0
+J009,S007,Power BI,0,1,0
+J009,S007,Python,1,0,0
+J009,S007,SQL,0,1,0
+J009,S007,Tableau,0,1,0
+J009,S008,Communication,0,1,0
+J009,S008,Data Visualization,0,1,0
+J009,S008,Excel,1,0,0
+J009,S008,Machine Learning,1,0,0
+J009,S008,Power BI,1,1,1
+J009,S008,Python,1,0,0
+J009,S008,SQL,1,1,1
+J009,S008,Statistics,1,0,0
+J009,S008,Tableau,0,1,0
+J009,S009,Communication,0,1,0
+J009,S009,Data Visualization,0,1,0
+J009,S009,GitHub,1,0,0
+J009,S009,NumPy,1,0,0
+J009,S009,Pandas,1,0,0
+J009,S009,Power BI,0,1,0
+J009,S009,Python,1,0,0
+J009,S009,SQL,1,1,1
+J009,S009,Tableau,1,1,1
+J009,S010,Communication,1,1,1
+J009,S010,Data Visualization,0,1,0
+J009,S010,Excel,1,0,0
+J009,S010,Power BI,1,1,1
+J009,S010,Presentation,1,0,0
+J009,S010,SQL,1,1,1
+J009,S010,Statistics,1,0,0
+J009,S010,Tableau,0,1,0
+J010,S001,Business Analysis,0,1,0
+J010,S001,Communication,0,1,0
+J010,S001,Excel,1,1,1
+J010,S001,Pandas,1,0,0
+J010,S001,Power BI,1,1,1
+J010,S001,Python,1,0,0
+J010,S001,SQL,1,1,1
+J010,S001,Statistics,1,1,1
+J010,S002,Business Analysis,0,1,0
+J010,S002,Communication,0,1,0
+J010,S002,Data Visualization,1,0,0
+J010,S002,Excel,1,1,1
+J010,S002,Git,1,0,0
+J010,S002,Power BI,0,1,0
+J010,S002,Python,1,0,0
+J010,S002,SQL,1,1,1
+J010,S002,Statistics,0,1,0
+J010,S002,Tableau,1,0,0
+J010,S003,Business Analysis,0,1,0
+J010,S003,Communication,0,1,0
+J010,S003,Excel,1,1,1
+J010,S003,NumPy,1,0,0
+J010,S003,Pandas,1,0,0
+J010,S003,Power BI,1,1,1
+J010,S003,Python,1,0,0
+J010,S003,SQL,1,1,1
+J010,S003,Statistics,0,1,0
+J010,S004,Business Analysis,0,1,0
+J010,S004,Communication,0,1,0
+J010,S004,Excel,1,1,1
+J010,S004,Power BI,0,1,0
+J010,S004,Python,1,0,0
+J010,S004,R,1,0,0
+J010,S004,SQL,1,1,1
+J010,S004,Statistics,1,1,1
+J010,S004,Tableau,1,0,0
+J010,S005,Business Analysis,0,1,0
+J010,S005,Communication,1,1,1
+J010,S005,Data Visualization,1,0,0
+J010,S005,Excel,1,1,1
+J010,S005,Power BI,1,1,1
+J010,S005,Python,1,0,0
+J010,S005,SQL,1,1,1
+J010,S005,Statistics,0,1,0
+J010,S006,Business Analysis,0,1,0
+J010,S006,Communication,0,1,0
+J010,S006,Excel,0,1,0
+J010,S006,Machine Learning,1,0,0
+J010,S006,Pandas,1,0,0
+J010,S006,Power BI,1,1,1
+J010,S006,Python,1,0,0
+J010,S006,SQL,1,1,1
+J010,S006,Statistics,0,1,0
+J010,S006,Tableau,1,0,0
+J010,S007,Business Analysis,0,1,0
+J010,S007,Communication,1,1,1
+J010,S007,Excel,1,1,1
+J010,S007,Git,1,0,0
+J010,S007,Java,1,0,0
+J010,S007,MySQL,1,0,0
+J010,S007,Power BI,0,1,0
+J010,S007,Python,1,0,0
+J010,S007,SQL,0,1,0
+J010,S007,Statistics,0,1,0
+J010,S008,Business Analysis,0,1,0
+J010,S008,Communication,0,1,0
+J010,S008,Excel,1,1,1
+J010,S008,Machine Learning,1,0,0
+J010,S008,Power BI,1,1,1
+J010,S008,Python,1,0,0
+J010,S008,SQL,1,1,1
+J010,S008,Statistics,1,1,1
+J010,S009,Business Analysis,0,1,0
+J010,S009,Communication,0,1,0
+J010,S009,Excel,0,1,0
+J010,S009,GitHub,1,0,0
+J010,S009,NumPy,1,0,0
+J010,S009,Pandas,1,0,0
+J010,S009,Power BI,0,1,0
+J010,S009,Python,1,0,0
+J010,S009,SQL,1,1,1
+J010,S009,Statistics,0,1,0
+J010,S009,Tableau,1,0,0
+J010,S010,Business Analysis,0,1,0
+J010,S010,Communication,1,1,1
+J010,S010,Excel,1,1,1
+J010,S010,Power BI,1,1,1
+J010,S010,Presentation,1,0,0
+J010,S010,SQL,1,1,1
+J010,S010,Statistics,1,1,1
