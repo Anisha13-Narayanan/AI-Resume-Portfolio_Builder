@@ -1,45 +1,56 @@
 # 📄 AI Resume & Portfolio Builder
 
-An AI-powered web application that helps students and job seekers analyze their skills against job requirements, identify skill gaps, calculate an ATS-style resume score, generate AI-powered resume recommendations, and create professional resumes in DOCX and PDF formats.
+An AI-powered career assistance application that helps students and job seekers analyze their skills against job requirements, identify skill gaps, calculate an ATS-style resume score, generate AI-powered recommendations, and create professional resumes in DOCX and PDF formats.
+
+---
+
+## 🌐 Project Links
+
+### 💻 GitHub Repository
+
+https://github.com/Anisha13-Narayanan/AI-Resume-Portfolio_Builder
+
+### 🚀 Live Application
+
+https://ai-resume-portfoliobuilder-szj3xszpc8mz62t6gtwoq2.streamlit.app/
 
 ---
 
 ## 📌 Project Overview
 
-The **AI Resume & Portfolio Builder** is a career-assistance application developed using Python, NLP, data analysis, Generative AI, and Streamlit.
+The **AI Resume & Portfolio Builder** is a Python-based application designed to help students and job seekers improve their resumes according to the requirements of a target job.
 
-The application allows a user to:
+The system combines:
 
-1. Select a student profile.
-2. Select a target job.
-3. Extract required skills from the job description.
-4. Compare student skills with job requirements.
-5. Identify matched and missing skills.
-6. Analyze skill gaps.
-7. Calculate an ATS-style resume score.
-8. Generate AI-powered resume recommendations.
-9. Generate professional resume documents.
-10. Download the generated resume in DOCX and PDF formats.
+- Natural Language Processing
+- Skill Extraction
+- Skill Matching
+- Skill Gap Analysis
+- ATS-style Resume Scoring
+- Generative AI
+- Resume Generation
+- Streamlit Web Application
 
-The goal is to help students understand their readiness for a target job and improve their resume based on actual job requirements.
+The application analyzes the relationship between a student's current skills and the skills required by a selected job.
 
 ---
 
-# 🎯 Objectives
+## 🎯 Objectives
 
 The main objectives of this project are:
 
-- Automatically extract skills from job descriptions.
-- Match student skills with job requirements.
-- Identify missing and additional skills.
-- Provide personalized skill-gap recommendations.
-- Calculate an ATS-style resume compatibility score.
-- Generate professional resume summaries using Generative AI.
-- Suggest relevant skills to learn.
-- Suggest improvements for projects.
-- Provide resume improvement recommendations.
-- Generate professional resumes in DOCX and PDF formats.
-- Provide an easy-to-use Streamlit web interface.
+1. Extract required skills from job descriptions.
+2. Compare student skills with job requirements.
+3. Identify matched, missing, and additional skills.
+4. Analyze skill gaps.
+5. Provide personalized learning recommendations.
+6. Calculate an ATS-style resume score.
+7. Generate AI-powered professional summaries.
+8. Recommend additional skills.
+9. Suggest project improvements.
+10. Generate professional resumes in DOCX and PDF formats.
+11. Provide an interactive web interface.
+12. Deploy the application as a web application.
 
 ---
 
@@ -47,622 +58,693 @@ The main objectives of this project are:
 
 ## 🔎 1. NLP Skill Extraction
 
-The application extracts relevant technical and professional skills from job descriptions.
+The application automatically extracts relevant skills from job descriptions.
 
 ### Example
 
 Input:
 
-```text
-We are looking for a Junior Data Analyst with experience in
-Python, SQL, Power BI, Excel, Pandas and Statistics.
+    We are looking for a Junior Data Analyst with experience in
+    Python, SQL, Power BI, Excel, Pandas and Statistics.
 
 Output:
 
-Python
-SQL
-Power BI
-Excel
-Pandas
-Statistics
+    Python
+    SQL
+    Power BI
+    Excel
+    Pandas
+    Statistics
 
-This allows the system to identify the skills required for a specific job.
+---
 
-🎯 2. Skill Matching
+## 🎯 2. Skill Matching
 
-The system compares the student's current skills with the skills extracted from the target job.
+The application compares the student's current skills with the requirements of the selected job.
 
-The application identifies:
+It identifies:
 
-✅ Matched Skills
+### ✅ Matched Skills
 
-Skills the student already has.
+Skills already available in the student's profile.
 
-❌ Missing Skills
+### ❌ Missing Skills
 
-Skills required by the job but not currently available in the student's profile.
+Skills required by the job but missing from the student's profile.
 
-➕ Additional Skills
+### ➕ Additional Skills
 
-Skills the student has that are not directly required by the selected job.
+Skills available in the student's profile that are not directly required by the selected job.
 
 The system also calculates an overall skill-match percentage.
 
-📚 3. Personalized Skill Gap Analysis
+---
 
-The skill-gap module analyzes missing skills and provides personalized recommendations.
+## 📚 3. Personalized Skill Gap Analysis
 
-For each missing skill, the system provides:
+The application analyzes missing skills and provides recommendations.
 
-Skill name
-Skill category
-Priority
-Learning recommendation
-Example
-Missing Skill: Tableau
+For each skill gap, the system provides:
 
-Category:
-Data Visualization
+- Skill
+- Category
+- Priority
+- Learning Recommendation
 
-Priority:
-Medium
+### Example
 
-Recommendation:
-Learn Tableau fundamentals and create a dashboard project.
+    Missing Skill: Tableau
 
-This helps students identify what they should learn to improve their job readiness.
+    Category:
+    Data Visualization
 
-📊 4. ATS-Style Resume Scoring
+    Priority:
+    Medium
 
-The application calculates an ATS-style resume score using multiple factors.
+    Recommendation:
+    Learn Tableau fundamentals and demonstrate the skill through a dashboard project.
 
-The scoring system contains:
+---
 
-Component	Weight
-Skill Match	40%
-Keyword Matching	20%
-Education	10%
-Projects	15%
-Resume Structure	10%
-Resume Completeness	5%
-Total	100%
-ATS Score Components
-Skill Match Score
+# 📊 4. ATS-Style Resume Scoring
 
-Measures how many required job skills are present in the student's skills.
+The application calculates an ATS-style resume compatibility score using multiple factors.
 
-Keyword Score
+| Component | Weight |
+|---|---:|
+| Skill Match | 40% |
+| Keyword Matching | 20% |
+| Education | 10% |
+| Projects | 15% |
+| Resume Structure | 10% |
+| Resume Completeness | 5% |
+| **Total** | **100%** |
 
-Measures keyword overlap between the resume and job description.
+### Score Components
 
-Education Score
+#### Skill Match
 
-Checks the completeness of:
+Measures the percentage of required skills matched by the student.
 
-Degree
-Field
-Institution
-Graduation year
-Project Score
+#### Keyword Matching
+
+Measures keyword overlap between the resume and target job description.
+
+#### Education
+
+Checks:
+
+- Degree
+- Field
+- Institution
+- Graduation year
+
+#### Projects
 
 Evaluates:
 
-Number of projects
-Project name
-Project description
-Technologies used
-Structure Score
+- Number of projects
+- Project name
+- Project description
+- Technologies used
 
-Checks important resume sections such as:
+#### Resume Structure
 
-Summary
-Skills
-Education
-Projects
-Experience
-Completeness Score
+Checks important sections such as:
+
+- Summary
+- Skills
+- Education
+- Projects
+- Experience
+
+#### Resume Completeness
 
 Checks whether important personal and resume information is available.
 
-Checks whether important personal and resume information is available.
+---
 
-📈 Example ATS Result
+## 📈 Example ATS Result
 
-Example output:
+    ======================================================================
+    MODULE 5 - ATS STYLE SCORING
+    ======================================================================
 
-======================================================================
-MODULE 5 - ATS STYLE SCORING
-======================================================================
+    ATS SCORE BREAKDOWN
+    ----------------------------------------------------------------------
 
-ATS SCORE BREAKDOWN
-----------------------------------------------------------------------
+    Skill Match Score    : 75.0%
+    Keyword Score        : 77.78%
+    Education Score      : 100%
+    Project Score        : 100.0%
+    Structure Score      : 80.0%
+    Completeness Score   : 100.0%
 
-Skill Match Score    : 75.0%
-Keyword Score        : 77.78%
-Education Score      : 100%
-Project Score        : 100.0%
-Structure Score      : 80.0%
-Completeness Score   : 100.0%
+    ----------------------------------------------------------------------
 
-----------------------------------------------------------------------
+    FINAL ATS SCORE      : 83.56/100
 
-FINAL ATS SCORE      : 83.56/100
+    RECOMMENDATIONS
+    ----------------------------------------------------------------------
 
-RECOMMENDATIONS
-----------------------------------------------------------------------
+    • Resume has strong ATS compatibility.
 
-• Resume has strong ATS compatibility.
-🤖 5. Gemini AI Integration
+---
 
-The application integrates Google Gemini for Generative AI functionality.
+# 🤖 5. Gemini AI Integration
 
-Gemini can generate:
+The application integrates Google Gemini for AI-powered resume analysis and content generation.
 
-Professional summaries
-Skill recommendations
-Project improvement suggestions
-Resume improvement recommendations
-AI Professional Summary
+Gemini is used for:
 
-Example:
+- Professional Summary Generation
+- Skill Recommendations
+- Project Improvement Suggestions
+- Resume Improvement Recommendations
 
-BSc Data Science with hands-on experience in Python, SQL,
-Power BI, Excel, Pandas and Statistics. Developed relevant
-data analysis projects and seeking a Junior Data Analyst role.
-AI Skill Recommendations
+### Example AI Professional Summary
 
-The system can recommend additional skills based on the target role.
+    BSc Data Science with hands-on experience in Python, SQL,
+    Power BI, Excel, Pandas and Statistics. Developed relevant
+    data analysis projects and seeking a Junior Data Analyst role.
 
-Example:
+### Example Skill Recommendations
 
-• Consider learning or demonstrating Tableau if relevant.
-• Consider learning or demonstrating Machine Learning if relevant.
-AI Project Improvements
+    • Consider learning or demonstrating Tableau if relevant.
+    • Consider learning or demonstrating Machine Learning if relevant.
 
-The system can recommend how to improve project descriptions by:
+### Example Project Improvements
 
-Highlighting technical contributions
-Adding measurable results
-Mentioning technologies
-Explaining the business problem solved
-🛡️ Gemini Fallback System
+    • Highlight measurable results.
+    • Explain technical contributions.
+    • Mention technologies used.
+    • Describe the business problem solved.
 
-The application includes a rule-based fallback mechanism.
+---
 
-If Gemini is temporarily unavailable because of:
+# 🛡️ Gemini AI Fallback System
 
-API quota limits
-Rate limits
-Temporary service errors
-Model availability issues
-Network problems
+The application contains a rule-based fallback mechanism.
 
-the application continues working using predefined rule-based recommendations.
+If Gemini is unavailable because of:
 
-Therefore, Gemini availability is not required for the core application to function.
+- API quota limits
+- Rate limits
+- Temporary service errors
+- Model availability issues
+- Network problems
+
+the application continues using rule-based recommendations.
 
 Example:
 
-Gemini request failed.
-Using rule-based fallback.
-📄 6. Resume Generation
+    Gemini request failed.
+    Using rule-based fallback.
 
-The application generates professional resumes from the analyzed student information.
+This ensures that the core application remains functional even when the AI service is temporarily unavailable.
+
+---
+
+# 📄 6. Resume Generation
+
+The application generates professional resumes containing:
+
+- Personal Information
+- Professional Summary
+- Skills
+- Education
+- Projects
+- Experience
+- Job-targeted Recommendations
 
 Supported formats:
 
-DOCX
-PDF
+    DOCX
+    PDF
 
-The generated resume can contain:
+---
 
-Personal Information
-        ↓
-Professional Summary
-        ↓
-Technical Skills
-        ↓
-Education
-        ↓
-Projects
-        ↓
-Experience
-🖥️ 7. Streamlit Web Application
+# 🖥️ 7. Streamlit Web Application
 
-The complete system is integrated into a Streamlit interface.
+The entire project is integrated into an interactive Streamlit application.
 
-The application provides an interactive workflow for:
+The user can:
 
-Student selection
-Job selection
-Skill extraction
-Skill matching
-Skill-gap analysis
-ATS scoring
-AI recommendations
-Resume generation
-🔄 Application Workflow
-                    ┌─────────────────────┐
-                    │      CSV DATA       │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │     DATA LOADER     │
-                    └──────────┬──────────┘
-                               │
-              ┌────────────────┴────────────────┐
-              │                                 │
-              ▼                                 ▼
-    ┌────────────────────┐           ┌────────────────────┐
-    │ Student Profile    │           │ Job Description    │
-    └──────────┬─────────┘           └──────────┬─────────┘
-               │                                │
-               │                                ▼
-               │                     ┌────────────────────┐
-               │                     │ NLP Skill          │
-               │                     │ Extraction         │
-               │                     └──────────┬─────────┘
-               │                                │
-               └────────────────┬───────────────┘
-                                ▼
-                    ┌─────────────────────┐
-                    │   SKILL MATCHING    │
-                    └──────────┬──────────┘
-                               │
-                ┌──────────────┼──────────────┐
-                │              │              │
-                ▼              ▼              ▼
-             Matched        Missing        Extra
-              Skills         Skills        Skills
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │  SKILL GAP ANALYSIS │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │   ATS SCORING       │
-                    └──────────┬──────────┘
-                               │
-                ┌──────────────┴──────────────┐
-                │                             │
-                ▼                             ▼
-       ┌─────────────────┐          ┌────────────────────┐
-       │   GEMINI AI     │          │ RESUME GENERATION  │
-       │ Recommendations │          │ DOCX / PDF         │
-       └─────────────────┘          └────────────────────┘
-🏗️ Project Structure
-AI-Resume-Portfolio_Builder/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── data/
-│   └── raw/
-│       ├── students.csv
-│       ├── jobs.csv
-│       ├── job_descriptions.csv
-│       ├── skills.csv
-│       ├── skill_categories.csv
-│       └── skill_matching.csv
-│
-├── src/
-│   ├── __init__.py
-│   │
-│   ├── data/
-│   │   ├── __init__.py
-│   │   └── data_loader.py
-│   │
-│   ├── nlp/
-│   │   ├── __init__.py
-│   │   └── skill_extractor.py
-│   │
-│   ├── analysis/
-│   │   ├── __init__.py
-│   │   ├── skill_matcher.py
-│   │   ├── skill_gap_analyzer.py
-│   │   ├── ats_scorer.py
-│   │   └── ai_generator.py
-│   │
-│   └── documents/
-│       ├── __init__.py
-│       ├── resume_generator.py
-│       └── pdf_generator.py
-│
-└── outputs/
-🛠️ Technologies Used
-Programming Language
-Python 3.x
-Data Processing
-Pandas
-NumPy
-Machine Learning / NLP
-Scikit-learn
-spaCy
-NLP-based skill extraction
-Generative AI
-Google Gemini API
-Google GenAI SDK
-Web Application
-Streamlit
-Visualization
-Plotly
-Document Generation
-python-docx
-ReportLab
-pypdf
-Environment Management
-python-dotenv
-Python Virtual Environment
-Version Control
-Git
-GitHub
-📦 Installation
-1. Clone the Repository
-git clone https://github.com/Anisha13-Narayanan/AI-Resume-Portfolio_Builder.git
+1. Select a student.
+2. Select a target job.
+3. Extract required skills.
+4. Analyze skill matching.
+5. View skill gaps.
+6. Calculate ATS score.
+7. Generate AI recommendations.
+8. Generate a resume.
+9. Download the generated resume.
 
-Move into the project directory:
+---
 
-cd AI-Resume-Portfolio_Builder
-2. Create a Virtual Environment
+# 🔄 Application Workflow
+
+    ┌─────────────────────┐
+    │      CSV DATA       │
+    └──────────┬──────────┘
+               │
+               ▼
+    ┌─────────────────────┐
+    │     DATA LOADER     │
+    └──────────┬──────────┘
+               │
+       ┌───────┴────────┐
+       ▼                ▼
+    ┌───────────────┐  ┌──────────────────┐
+    │Student Profile│  │ Job Description  │
+    └───────┬───────┘  └────────┬─────────┘
+            │                   │
+            │                   ▼
+            │        ┌─────────────────────┐
+            │        │ NLP Skill Extraction│
+            │        └──────────┬──────────┘
+            │                   │
+            └─────────┬─────────┘
+                      ▼
+            ┌─────────────────────┐
+            │   Skill Matching    │
+            └──────────┬──────────┘
+                       │
+             ┌─────────┼─────────┐
+             ▼         ▼         ▼
+          Matched   Missing   Additional
+           Skills    Skills     Skills
+                       │
+                       ▼
+            ┌─────────────────────┐
+            │ Skill Gap Analysis  │
+            └──────────┬──────────┘
+                       │
+                       ▼
+            ┌─────────────────────┐
+            │    ATS Scoring      │
+            └──────────┬──────────┘
+                       │
+              ┌────────┴─────────┐
+              ▼                  ▼
+       ┌──────────────┐   ┌──────────────────┐
+       │  Gemini AI   │   │Resume Generation │
+       │Recommendations│  │    DOCX / PDF    │
+       └──────────────┘   └──────────────────┘
+
+---
+
+# 🏗️ Project Structure
+
+    AI-Resume-Portfolio_Builder/
+    │
+    ├── app.py
+    ├── requirements.txt
+    ├── README.md
+    ├── .gitignore
+    │
+    ├── data/
+    │   └── raw/
+    │       ├── students.csv
+    │       ├── jobs.csv
+    │       ├── job_descriptions.csv
+    │       ├── skills.csv
+    │       ├── skill_categories.csv
+    │       └── skill_matching.csv
+    │
+    ├── src/
+    │   ├── __init__.py
+    │   │
+    │   ├── data/
+    │   │   ├── __init__.py
+    │   │   └── data_loader.py
+    │   │
+    │   ├── nlp/
+    │   │   ├── __init__.py
+    │   │   └── skill_extractor.py
+    │   │
+    │   ├── analysis/
+    │   │   ├── __init__.py
+    │   │   ├── skill_matcher.py
+    │   │   ├── skill_gap_analyzer.py
+    │   │   ├── ats_scorer.py
+    │   │   └── ai_generator.py
+    │   │
+    │   └── documents/
+    │       ├── __init__.py
+    │       ├── resume_generator.py
+    │       └── pdf_generator.py
+    │
+    └── outputs/
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Core Programming Language |
+| Pandas | Data Processing |
+| NumPy | Numerical Operations |
+| Scikit-learn | Data Analysis / ML Utilities |
+| spaCy | Natural Language Processing |
+| Streamlit | Web Application |
+| Plotly | Data Visualization |
+| Google Gemini | Generative AI |
+| google-genai | Gemini API Integration |
+| python-docx | DOCX Generation |
+| ReportLab | PDF Generation |
+| pypdf | PDF Processing |
+| python-dotenv | Environment Variables |
+| Git | Version Control |
+| GitHub | Source Code Hosting |
+
+---
+
+# 📦 Installation
+
+## 1. Clone the Repository
+
+    git clone https://github.com/Anisha13-Narayanan/AI-Resume-Portfolio_Builder.git
+
+Navigate to the project:
+
+    cd AI-Resume-Portfolio_Builder
+
+---
+
+# 2. Create a Virtual Environment
 
 Windows:
 
-python -m venv .venv
+    python -m venv .venv
 
-Activate the environment:
+Activate:
 
-.venv\Scripts\activate
-3. Install Dependencies
+    .venv\Scripts\activate
 
-Install all required packages:
+---
 
-pip install -r requirements.txt
-📋 Requirements
+# 3. Install Dependencies
+
+    pip install -r requirements.txt
+
+---
+
+# 📋 Requirements
 
 The project uses the following Python packages:
 
-pandas
-numpy
-scikit-learn
-spacy
-streamlit
-plotly
-reportlab
-python-docx
-python-dotenv
-pypdf
-google-genai
-🔐 Gemini API Configuration
+    pandas
+    numpy
+    scikit-learn
+    spacy
+    streamlit
+    plotly
+    reportlab
+    python-docx
+    python-dotenv
+    pypdf
+    google-genai
 
-The Gemini API key is loaded through an environment variable.
+---
 
-The API key should never be hardcoded into the source code or committed to GitHub.
+# 🔐 Gemini API Configuration
 
-Local Development
+The Gemini API key is loaded using an environment variable.
 
-Create a .env file in the project root:
+## Local Development
 
-GEMINI_API_KEY=your_api_key_here
+Create a `.env` file in the project root:
 
-The application loads the key using:
+    GEMINI_API_KEY=your_api_key_here
 
-import os
-from dotenv import load_dotenv
+The application reads the key using:
 
-load_dotenv()
+    import os
+    from dotenv import load_dotenv
 
-api_key = os.getenv("GEMINI_API_KEY")
-🔒 Security
+    load_dotenv()
 
-The following files must not be committed to GitHub:
+    api_key = os.getenv("GEMINI_API_KEY")
 
-.env
-.streamlit/secrets.toml
+---
 
-The .gitignore file should contain:
+# 🔒 Security
 
-.venv/
-__pycache__/
-.env
-.streamlit/secrets.toml
-outputs/
-*.pyc
+API keys should never be hardcoded in Python files.
 
-Never publish:
+Do not commit:
 
-Gemini API keys
-Passwords
-Authentication tokens
-Private credentials
-▶️ Running the Application
+    .env
+    .streamlit/secrets.toml
 
-After activating the virtual environment and installing dependencies:
+Your `.gitignore` should include:
 
-streamlit run app.py
+    .venv/
+    __pycache__/
+    .env
+    .streamlit/secrets.toml
+    outputs/
+    *.pyc
 
-The application will start locally and open in a browser.
+For cloud deployment, configure the Gemini API key through the platform's secret-management system.
 
-🧪 Testing
+---
 
-The individual modules can be tested separately.
+# ▶️ Run the Application Locally
 
-Test Skill Matching
-python -m src.analysis.test_skill_matcher
-Test ATS Scoring
-python -m src.analysis.test_ats_scorer
-Test Gemini AI
-python -m src.analysis.test_gemini_ai
+Activate the virtual environment:
 
-Gemini may occasionally return temporary errors or quota limitations.
+    .venv\Scripts\activate
 
-The application uses a rule-based fallback when Gemini is unavailable.
+Run Streamlit:
 
-📊 Project Modules
-Module	Description	Status
-Module 1	Project Setup & Data Loading	✅ Completed
-Module 2	NLP Skill Extraction	✅ Completed
-Module 3	Skill Matching	✅ Completed
-Module 4	Skill Gap Analysis	✅ Completed
-Module 5	ATS-Style Scoring	✅ Completed
-Module 6	AI Resume Generation	✅ Completed
-Module 7	Streamlit UI	✅ Completed
-Module 8	Resume / Portfolio Generation	✅ Completed
-Module 9	Testing & Deployment	🔄 In Progress
-📈 Example Application Output
+    streamlit run app.py
 
-A typical analysis can produce:
+The application will open in your browser.
 
-Student:
-Data Science Student
+---
 
-Target Job:
-Junior Data Analyst
+# 🧪 Testing
 
-Skill Match:
-75%
+## Skill Matching Test
 
-Matched Skills:
-Python
-SQL
-Excel
-Power BI
-Pandas
+    python -m src.analysis.test_skill_matcher
 
-Missing Skills:
-Tableau
-Machine Learning
+---
 
-ATS Score:
-83.56 / 100
+## ATS Scoring Test
 
-AI Recommendations:
-Improve project descriptions
-Add measurable results
-Consider learning Tableau
-Consider demonstrating Machine Learning
-🎓 Target Users
+    python -m src.analysis.test_ats_scorer
 
-This application is primarily designed for:
+---
 
-Data Science students
-Data Analytics students
-Fresh graduates
-Job seekers
-Career development programs
-College placement cells
-💡 Use Cases
-Student Career Preparation
+## Gemini AI Test
 
-Students can identify which skills they need for a particular job.
+    python -m src.analysis.test_gemini_ai
 
-Resume Optimization
+If Gemini reaches its API quota, the application uses the rule-based fallback system.
 
-Students can identify missing keywords and improve resume structure.
+---
 
-Job Matching
+# 📊 Project Modules
 
-Users can compare their current skills with multiple job descriptions.
+| Module | Description | Status |
+|---|---|---|
+| Module 1 | Project Setup & Data Loading | ✅ Completed |
+| Module 2 | NLP Skill Extraction | ✅ Completed |
+| Module 3 | Skill Matching | ✅ Completed |
+| Module 4 | Skill Gap Analysis | ✅ Completed |
+| Module 5 | ATS-Style Scoring | ✅ Completed |
+| Module 6 | Gemini AI Generation | ✅ Completed |
+| Module 7 | Streamlit UI | ✅ Completed |
+| Module 8 | Resume Generation | ✅ Completed |
+| Module 9 | GitHub Integration | ✅ Completed |
+| Module 10 | Cloud Deployment | 🔄 In Progress |
 
-Skill Development
+---
 
-The application provides recommendations for closing skill gaps.
+# 📈 Example End-to-End Analysis
 
-Resume Generation
+    Student:
+    Data Science Student
 
-Users can generate a professional resume based on their profile and target role.
+    Target Job:
+    Junior Data Analyst
 
-🚀 Future Improvements
+    Current Skills:
+    Python
+    SQL
+    Power BI
+    Excel
+    Pandas
+    Statistics
 
-The following features can be added in future versions:
+    Matched Skills:
+    Python
+    SQL
+    Power BI
+    Excel
+    Pandas
+    Statistics
 
-Job recommendation system
-Advanced semantic skill matching
-Resume template selection
-Cover letter generation
-LinkedIn profile optimization
-Portfolio website generation
-Job description comparison
-Personalized learning roadmap
-Resume history
-User authentication
-Database integration
-Cloud deployment
-Improved AI personalization
-Interactive analytics dashboard
-🌐 Deployment
+    Missing Skills:
+    Tableau
+    Machine Learning
 
-The application is designed to be deployed as a Streamlit web application.
+    Skill Match:
+    75%
 
-Deployment steps include:
+    ATS Score:
+    83.56 / 100
 
-GitHub Repository
-        ↓
-Streamlit Community Cloud
-        ↓
-Configure Secrets
-        ↓
-Install requirements.txt
-        ↓
-Deploy app.py
-        ↓
-Public Web Application
+    AI Recommendations:
+    • Consider learning Tableau.
+    • Consider demonstrating Machine Learning.
+    • Improve project descriptions.
+    • Highlight measurable results.
 
-The Gemini API key should be configured through the deployment platform's secret management system rather than being stored in the GitHub repository.
+---
 
-📌 Current Project Status
-Project Setup                  ✅
-Dataset Loading                ✅
-NLP Skill Extraction           ✅
-Skill Matching                 ✅
-Skill Gap Analysis             ✅
-ATS-Style Scoring              ✅
-Gemini AI Integration          ✅
-AI Fallback System             ✅
-Streamlit Application          ✅
-DOCX Resume Generation         ✅
-PDF Resume Generation          ✅
-GitHub Integration             ✅
-Testing                        🔄
-Cloud Deployment               🔄
-Portfolio Generation           🔄
-🏆 Project Highlights
+# 🎓 Target Users
 
-This project demonstrates practical implementation of:
+The application is designed primarily for:
 
-Python programming
-Data processing
-Natural Language Processing
-Skill extraction
-Recommendation systems
-ATS-style scoring
-Generative AI
-API integration
-Streamlit development
-Document generation
-Git and GitHub
-Application deployment
-👩‍💻 Author
+- Data Science Students
+- Data Analytics Students
+- Fresh Graduates
+- Job Seekers
+- College Placement Cells
+- Career Development Programs
 
-Anisha N
-Data Science
+---
 
-📜 License
+# 💡 Use Cases
 
-This project is intended for educational and portfolio purposes.
+## Student Career Preparation
 
-⭐ Conclusion
+Helps students understand whether their current skills match a target job.
 
-The AI Resume & Portfolio Builder combines NLP, data analysis, skill matching, skill-gap analysis, ATS-style scoring, Generative AI, and document generation into one practical application.
+## Resume Optimization
 
-The system helps students and job seekers understand their suitability for a target job, identify areas for improvement, receive personalized recommendations, and generate a professional resume.
+Identifies missing skills and important job-related keywords.
 
-🔗 Repository
+## Skill Development
 
-GitHub:
+Provides recommendations for closing skill gaps.
+
+## Job Matching
+
+Allows users to compare their skills against different job roles.
+
+## Resume Generation
+
+Creates a professional resume based on the student's profile and target job.
+
+---
+
+# 🚀 Deployment
+
+The application is designed to run as a cloud-based Streamlit application.
+
+Deployment workflow:
+
+    GitHub Repository
+            ↓
+    Streamlit Community Cloud
+            ↓
+    Configure Application
+            ↓
+    Configure Gemini Secret
+            ↓
+    Install requirements.txt
+            ↓
+    Run app.py
+            ↓
+    Public Web Application
+
+The Gemini API key should be added through Streamlit Secrets and should never be committed to GitHub.
+
+
+---
+
+# 🏆 Project Highlights
+
+This project demonstrates practical knowledge of:
+
+- Python
+- Data Processing
+- Natural Language Processing
+- Skill Extraction
+- Skill Matching
+- Recommendation Systems
+- ATS-style Scoring
+- Generative AI
+- API Integration
+- Streamlit
+- Document Generation
+- Git
+- GitHub
+- Cloud Deployment
+
+---
+
+# 🔮 Future Improvements
+
+Future versions may include:
+
+- Job Recommendation System
+- Advanced Semantic Skill Matching
+- Resume Template Selection
+- Cover Letter Generation
+- LinkedIn Profile Optimization
+- Portfolio Website Generation
+- Personalized Learning Roadmap
+- Job Description Comparison
+- Resume History
+- User Authentication
+- Database Integration
+- Advanced Resume Analytics
+- Improved AI Personalization
+
+---
+
+# 👩‍💻 Author
+
+**Anisha.N**
+
+Postgraduate Diploma in Data Science and Analytics
+
+---
+
+# 📜 License
+
+This project is developed for educational, academic, and portfolio purposes.
+
+---
+
+# ⭐ Conclusion
+
+The **AI Resume & Portfolio Builder** combines NLP, data analysis, skill matching, skill-gap analysis, ATS-style scoring, Generative AI, and document generation into a single practical application.
+
+The system helps students and job seekers:
+
+- Understand their job readiness
+- Identify missing skills
+- Improve their resume
+- Receive personalized recommendations
+- Generate professional resumes
+- Prepare for target job roles
+
+The project demonstrates an end-to-end implementation from data processing and analysis to AI integration, web application development, GitHub version control, and cloud deployment.
+
+---
+
+## 🔗 GitHub Repository
 
 https://github.com/Anisha13-Narayanan/AI-Resume-Portfolio_Builder
+
+## 🚀 Live Application
+
+_Add the Streamlit URL here after successful deployment._
