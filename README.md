@@ -746,5 +746,4 @@ The project demonstrates an end-to-end implementation from data processing and a
 https://github.com/Anisha13-Narayanan/AI-Resume-Portfolio_Builder
 
 ## 🚀 Live Application
-
-_Add the Streamlit URL here after successful deployment._
+https://ai-resume-portfoliobuilder-szj3xszpc8mz62t6gtwoq2.streamlit.app/
