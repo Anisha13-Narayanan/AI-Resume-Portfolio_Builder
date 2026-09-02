@@ -3,8 +3,8 @@ MODULE 6B - GEMINI AI GENERATION
 
 Features:
 - One Gemini request for complete resume analysis
-- Gemini 3.7 Flash primary model
-- Gemini 2.5 Flash fallback model
+- Gemini 2.0 Flash primary model
+- Gemini 1.5 Flash fallback model
 - Retry handling for temporary 503 / 429 errors
 - Rule-based fallback if Gemini is unavailable
 - Professional summary
@@ -34,8 +34,8 @@ class AIGenerator:
         self.ai_available = False
 
         self.models = [
-            "gemini-3.7-flash",
-            "gemini-3.6-flash"
+            "gemini-2.0-flash",
+            "gemini-1.5-flash"
         ]
 
         if api_key:

@@ -49,8 +49,9 @@ def match_skills(
 
     # Preserve readable capitalization
     skill_display = {
-        skill.lower(): skill
+        skill.strip().lower(): skill
         for skill in student_skills + job_skills
+        if skill and skill.strip()
     }
 
     return {
